@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SpringMVC Demo 首页</title>
 
-    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/WEB-INF/css/bootstrap.min.css">
 
-    <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <script src="/WEB-INF/js/html5shiv.min.js"></script>
+    <script src="/WEB-INF/js/respond.min.js"></script>
 
 </head>
 <body>
@@ -18,8 +18,8 @@
 
 <h3>出现此页面，说明配置成功。</h3>
 
-<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="/WEB-INF/js/jquery.min.js"></script>
 
-<script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="/WEB-INF/js/bootstrap.min.js"></script>
 </body>
 </html>
