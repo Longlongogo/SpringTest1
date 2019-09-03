@@ -14,9 +14,9 @@
 
 </head>
 <body>
-<h1>这里是SpringMVC Demo首页</h1>
+<h1>首页</h1>
 
-<h3>出现此页面，说明配置成功。</h3>
+<h3>123。</h3>
 
 <script src="/WEB-INF/js/jquery.min.js"></script>
 
