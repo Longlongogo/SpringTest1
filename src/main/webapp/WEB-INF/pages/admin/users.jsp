@@ -48,7 +48,7 @@
                 <tr>
                     <td>${user.id}</td>
                     <td>${user.nickname}</td>
-                    <td>${user.firstName} ${user.lastName}</td>
+                    <td>${user.firstName}-${user.lastName}</td>
                     <td>${user.password}</td>
                     <td>
                         <a href="/admin/users/show/${user.id}" type="button" class="btn btn-sm btn-success">详情</a>

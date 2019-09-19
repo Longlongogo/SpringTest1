@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import repository.UserRepository;
@@ -54,5 +55,12 @@ public class MainController {
 
         // 重定向到用户管理页面，方法为 redirect:url
         return "redirect:/admin/users";
+    }
+
+    @RequestMapping(value = "/admin/users/show/{id}",method = RequestMethod.GET)
+    public String showUser(@PathVariable("id") Integer userId,ModelMap modelMap){
+        UserEntity userEntity = userRepository.findById(userId).get();
+        modelMap.addAttribute("user",userEntity);
+        return "/admin/userDetail";
     }
 }
