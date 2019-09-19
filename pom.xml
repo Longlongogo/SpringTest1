@@ -9,7 +9,7 @@
     <version>1.0</version>
     <packaging>war</packaging>
 
-    <name>SpringTest1 Maven Webapp</name> 
+    <name>SpringTest1 Maven Webapp</name>
     <url>http://www.example.com</url>
 
     <properties>

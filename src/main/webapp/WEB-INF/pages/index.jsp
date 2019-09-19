@@ -16,7 +16,6 @@
 <body>
 <h1>首页</h1>
 
-<h3>123。</h3>
 
 <script src="/WEB-INF/js/jquery.min.js"></script>
 
