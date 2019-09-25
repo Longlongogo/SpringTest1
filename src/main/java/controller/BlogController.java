@@ -64,7 +64,7 @@ public class BlogController {
         blogRepository.updateBlogs(blogEntity.getTitle(),blogEntity.getUserByUserId().getId(),blogEntity.getContent()
                 ,blogEntity.getPubDate(),blogEntity.getId());
         blogRepository.flush();
-        return "redirect:/admin/blogs";
+        return "redirect:/admin/blogs"; 
     }
 
     @RequestMapping(value = "admin/blogs/delete/{id}",method = RequestMethod.GET)
